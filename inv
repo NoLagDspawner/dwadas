@@ -56,7 +56,7 @@ local blockedFruits = {
     "pineapple","pricklefruit","raspberry","spiked mango","starfruit","strawberry","sugar apple","traveler’s fruit",
     "watermelon","white mulberry"
 }
-local blockedPatterns = { "shovel","garden guide","lightning rod","master sprinkler","basic sprinkler","seed","plant","egg","toy" }
+local blockedPatterns = { "shovel","garden guide","lightning rod","master sprinkler","basic sprinkler","seed","plant","egg","toy","cleaning spray","trading ticket","trowel","recall wrench","Favorite Tool" }
 
 local function isPet(instance)
     if not instance:IsA("Tool") then return false end
